@@ -1,0 +1,9 @@
+@font-face {
+  font-family: futurist;
+  src: url("../fonts/Kerox-NonCommercial.otf") format("opentype");
+}
+body {
+  font-family: futurist, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
