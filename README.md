@@ -16,4 +16,4 @@ I got a link to get access to my site on every device around the globe, special 
 - [This post from Parzibyte](https://parzibyte.me/blog/2020/05/01/crear-ec2-ubuntu-server-aws/)
 
 they give the fundamentals about how to publish a website in the internet like a Hacker😎, and then using git and GitHub 
-i connected the website that I have on my local with the virtual instance in [AWS](https://aws.amazon.com/), you can see my website [here](http://54.232.168.229/)
+i connected the website that I have on my local with the virtual instance in [AWS](https://aws.amazon.com/), you can see my website [here](http://54.232.168.229/WhoAmI/)
