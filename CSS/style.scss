@@ -1,8 +1,82 @@
+//colors palette
+$bg: #1f1215;
+$simpleText: #5F5C5C;
+$darkRed: #4d0f18;
+$highlighted: #91171F;
+$hover-highlighted-text: #BA1F33;
+
 @font-face {
     font-family: futurist;
     src: url("../fonts/Kerox-NonCommercial.otf") format("opentype");
 }
 
+//General
 body{
     font-family: futurist,Verdana, Geneva, Tahoma, sans-serif;
+    color:$simpleText;
+    background-color: $bg;
+    padding: 0%;
+    margin: 0%;
 }
+
+a{
+    text-decoration: none;
+    color: $highlighted;
+    transition: 0.5s;
+    &:hover{
+        text-decoration: none;
+        color: $hover-highlighted-text;
+    }
+}
+
+//navegation bar
+.logo{
+    font-weight: bold;
+    color: $darkRed;
+    &:hover{
+        color: $highlighted;
+    }
+}
+
+.container-fluid{
+    width: max-content;
+}
+
+nav{
+    background-color: #1b1b1b;
+    //position: fixed;
+    //width: max-content;
+}
+
+nav ul{
+    text-align: right;
+    padding-top: 1.5%;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    padding: 1%;
+    text-decoration: none;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    color: $highlighted;
+    transition: 0.5s;
+    &:hover{
+        text-decoration: none;
+        color: $hover-highlighted-text;
+        border-radius: 50%;
+        border-left: solid $hover-highlighted-text;
+    }
+}
+
+.menu-selected{
+    text-decoration: none;
+    color: $hover-highlighted-text;
+    border-radius: 50%;
+    border-left: solid $hover-highlighted-text;
+    border-right: solid $hover-highlighted-text;
+}
+
