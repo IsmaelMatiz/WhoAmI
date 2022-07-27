@@ -1,7 +1,7 @@
 //colors palette
 $bg: #1f1215;
 $simpleText: #5F5C5C;
-$darkRed: #4d0f18;
+$darkRed: #55111c;
 $highlighted: #91171F;
 $hover-highlighted-text: #BA1F33;
 
@@ -38,14 +38,10 @@ a{
     }
 }
 
-.container-fluid{
-    width: max-content;
-}
-
 nav{
     background-color: #1b1b1b;
-    //position: fixed;
-    //width: max-content;
+    width: 100%;
+    position: fixed;
 }
 
 nav ul{
@@ -80,3 +76,19 @@ nav ul li a{
     border-right: solid $hover-highlighted-text;
 }
 
+//image main page
+.main-parallax{
+    background-image: url("../Images/bg_main_page_developer_enviorment.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30%;
+    padding-left: 30%;
+    padding-top: 25%;
+}
+
+.main-title{
+    backdrop-filter: blur(15px);
+    border-radius: 15%;
+    text-align: center;
+}
